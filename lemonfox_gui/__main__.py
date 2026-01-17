@@ -1,6 +1,6 @@
 from tkinter import Tk
 
-from .ui import App
+from lemonfox_gui.ui import App
 
 
 def main():
