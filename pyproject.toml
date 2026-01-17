@@ -1,0 +1,19 @@
+[project]
+name = "lemonfox-transkriptor-gui"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nathaniel Hartmann",email = "nathaniel.hartmann@partner.kit.edu"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.32.3",
+    "sounddevice>=0.5.0",
+    "soundfile>=0.12.1",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
